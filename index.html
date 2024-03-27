@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Produtos</h1>
+        <form id="productForm">
+            <label for="productName">Nome do produto:</label>
+            <input type="text" id="productName" required>
+
+            <label for="productDescription">Descrição do produto:</label>
+            <input type="" id="productDescription"></textarea>
+
+            <label for="productValue">Valor do produto (R$):</label>
+            <input type="text" id="productValue" required>
+
+            <label for="productAvailability">Disponível para venda:</label>
+            <select id="productAvailability" required>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+
+            <button type="submit">Cadastrar Produto</button>
+        </form>
+
+        <a href="listagem.html">Ver Listagem de Produtos</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
